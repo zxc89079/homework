@@ -1,0 +1,12 @@
+c:\users\user\documents\visual studio 2015\Projects\csharp xml\csharp xml\bin\Debug\csharp xml.exe.config
+c:\users\user\documents\visual studio 2015\Projects\csharp xml\csharp xml\bin\Debug\csharp xml.exe
+c:\users\user\documents\visual studio 2015\Projects\csharp xml\csharp xml\bin\Debug\csharp xml.pdb
+c:\users\user\documents\visual studio 2015\Projects\csharp xml\csharp xml\obj\Debug\csharp xml.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\csharp xml\csharp xml\obj\Debug\csharp xml.exe
+c:\users\user\documents\visual studio 2015\Projects\csharp xml\csharp xml\obj\Debug\csharp xml.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\csharp xml(0317)\csharp xml\bin\Debug\csharp xml.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\csharp xml(0317)\csharp xml\obj\Debug\csharp xml.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\csharp xml(0317)\csharp xml\obj\Debug\csharp xml.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\csharp xml(0317)\csharp xml\bin\Debug\csharp xml.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\csharp xml(0317)\csharp xml\bin\Debug\csharp xml.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\csharp xml(0317)\csharp xml\obj\Debug\csharp xml.csprojResolveAssemblyReference.cache
