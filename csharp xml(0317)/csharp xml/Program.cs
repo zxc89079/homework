@@ -23,7 +23,7 @@ namespace csharp_xml
 
             StationNode.Where(x => !x.IsEmpty).ToList().ForEach(stationNode =>
             {
-                var ObservatoryName = stationNode.Element(twed + "ObservatoryName").Value.Trim();
+                var ObservatoryName = stationNode.Element(twed + "ObservatoryName").Value.Trim(); //trim移除開頭結尾的空白
                 var LocationAddress = stationNode.Element(twed + "LocationAddress").Value.Trim();
 
                 var LocationByTWD67pos = stationNode.Element(twed + "LocationByTWD67").Descendants(gml + "pos").FirstOrDefault().Value.Trim();
