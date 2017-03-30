@@ -12,12 +12,17 @@ namespace csharp_xml
         static void Main(string[] args)
         {
 
+            var station = FindStations();
+        }
+
+        public static List<Station> FindStations()
+        {
             List<Station> stations = new List<Station>();
 
             var xml = XElement.Load(@"F:\water_info.xml");
 
             XNamespace gml = @"http://www.opengis.net/gml/3.2"; //宣告命名空間
-            XNamespace twed= @"http://twed.wra.gov.tw/twedml/opendata";
+            XNamespace twed = @"http://twed.wra.gov.tw/twedml/opendata";
 
             var StationNode = xml.Descendants(twed + "RiverStageObservatoryProfile").ToList(); //descendats?
 
@@ -35,15 +40,16 @@ namespace csharp_xml
                 stationData.CreateTime = DateTime.Now;
                 stations.Add(stationData);
 
-                Console.WriteLine("河川:"+stationData.ObservatoryName+"地址:" + stationData.LocationAddress+"座標:" + stationData.LocationByTWD67 + "\r\n");
-               
+                Console.WriteLine("河川:" + stationData.ObservatoryName + "\r");
+                Console.WriteLine("地址:" + stationData.LocationAddress + "\r");
+                Console.WriteLine("座標:" + stationData.LocationByTWD67 + "\r");
+                Console.WriteLine("-------------------------------------" + "\r\n");
+
 
             });
+
             Console.ReadLine();
-
-
-
-
+            return stations;
         }
     }
 }
