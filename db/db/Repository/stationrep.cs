@@ -18,13 +18,13 @@ namespace db.Repository
             connection.ConnectionString = _connectionString;
             connection.Open();
 
-            foreach (var station in stations)
+            foreach (var station in stations)  //把stations 資料丟給station
             {
                 var command = new System.Data.SqlClient.SqlCommand("", connection);
                 command.CommandText = string.Format(@"
 INSERT        INTO    water(LocationAddress, ObservatoryName, LocationByTWD67, CreateTime)
 VALUES          (N'{0}',N'{1}',N'{2}',N'{3}')
-", station.LocationAddress, station.ObservatoryName, station.LocationByTWD67, station.CreateTime.ToString("yyyy/MM/dd"));
+", station.LocationAddress, station.ObservatoryName, station.LocationByTWD67, station.CreateTime.ToString("yyyy/MM/dd"));//資料庫寫入
 
                 command.ExecuteNonQuery();
             }

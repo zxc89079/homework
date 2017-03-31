@@ -20,7 +20,7 @@ namespace ConsoleApplication1
             stations
               .ToList().ForEach(station =>
             {
-             db.Create(stations);
+               db.Create(stations);
             });
 
             // var station = importservice.FindStations(@"F:\water_info.xml");
