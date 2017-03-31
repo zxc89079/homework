@@ -13,3 +13,6 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\csharp xml(0317)\csharp xml\
 C:\Users\user\Documents\新增資料夾\csharp xml(0317)\csharp xml\bin\Debug\csharp xml.exe.config
 C:\Users\user\Documents\新增資料夾\csharp xml(0317)\csharp xml\obj\Debug\csharp xml.exe
 C:\Users\user\Documents\新增資料夾\csharp xml(0317)\csharp xml\obj\Debug\csharp xml.pdb
+C:\Users\user\Source\Repos\homework\csharp xml(0317)\csharp xml\bin\Debug\csharp xml.exe.config
+C:\Users\user\Source\Repos\homework\csharp xml(0317)\csharp xml\obj\Debug\csharp xml.exe
+C:\Users\user\Source\Repos\homework\csharp xml(0317)\csharp xml\obj\Debug\csharp xml.pdb

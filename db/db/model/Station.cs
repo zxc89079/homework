@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp_xml
+namespace db.model
 {
-    class Station
+    public class Station
     {
         public string LocationAddress { get; set; }
         public string ObservatoryName { get; set; }
         public string LocationByTWD67 { get; set; }
         public DateTime CreateTime { get; set; } //顯示目前時間
-
     }
 }
