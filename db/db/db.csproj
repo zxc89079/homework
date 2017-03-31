@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="model\Station.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\stationrep.cs" />
     <Compile Include="service\import.cs" />
   </ItemGroup>
   <ItemGroup />
